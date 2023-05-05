@@ -44,3 +44,22 @@ nav ul {
 nav ul li {
     display: inline-block;
 }
+
+nav ul li a{
+    text-align: center;
+    font-size: 0.85em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #F4C1C1;
+    padding: 7em;
+}
+
+nav ul li a:hover{
+    background-color: #F4C1C1;
+    color: #863D3D;
+    font-weight: bold;
+    padding: 0.9em;
+    margin-left: 6.1em;
+    margin-right: 6.1em;
+
+}
