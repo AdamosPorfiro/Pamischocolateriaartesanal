@@ -27,8 +27,18 @@ img {
     margin-top: -2%;
 }
 
+nav{
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #863D3D;
+}
+
 nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0.5em;
 }
 
 nav ul li {
