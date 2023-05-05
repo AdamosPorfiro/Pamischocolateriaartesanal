@@ -5,10 +5,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left: solid #F4C1C1;
-    border-right: solid #F4C1C1;
-    margin-left: 0.75em;
-    margin-right: 0.75em;
+
 }
 body{
     margin-bottom: auto;
@@ -69,3 +66,28 @@ nav ul li a:hover{
     margin-right: 2em;
 }
 
+.foto_lateral img{
+    float: right;
+    display: flex;
+    position: absolute;
+    margin-top: 2em;
+    width: 32em;
+    height: 35em;
+}
+.texto_lateral{
+float: right;
+width: 20em;
+vertical-align: top;
+margin-top: 2em;
+text-align: center;
+}
+
+.quadrado{
+    float: right;
+    display: flex;
+    
+    margin-top: 2em;
+    width: 20em;
+    height: 20em;
+    background-color: blue;
+}
