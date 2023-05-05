@@ -10,11 +10,14 @@ html {
     margin-left: 0.75em;
     margin-right: 0.75em;
 }
+body{
+    margin-bottom: auto;
+}
 
-body {
+main {
     background-color: #F4C1C1;
     width: 50em;
-    height: 90em;
+    height: 85em;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -59,7 +62,9 @@ nav ul li a:hover{
     color: #863D3D;
     font-weight: bold;
     padding: 0.9em;
-    margin-left: 6.1em;
-    margin-right: 6.1em;
-
+    padding-right: 5em;
+    padding-left: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
+
