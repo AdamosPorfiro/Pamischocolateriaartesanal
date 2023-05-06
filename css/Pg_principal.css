@@ -15,7 +15,7 @@ body {
 main {
     background-color: #F4C1C1;
     width: 40em;
-    height: 85em;
+    height: 80em;
     margin-top: auto;
     margin-bottom: auto;
 
@@ -102,23 +102,41 @@ nav ul li a:hover {
 
 h1 {
     clear: right;
-    margin-bottom: 3em;
-    padding-top: 2em ;
+    margin-bottom: 2em;
+    padding-top: 4em ;
     text-align: center;
+    font-weight: 1000;
+    color: #863D3D;
 }
 
-/*
-form label{
+
+form{
     display: block;
-    float:left ;
+    float: left;
+    background-color: #863D3D;
+    padding-top: 1.4em;
+    padding-right: 0.6em;
     margin-left: 0.4em;
-    margin-bottom: 3em;
+
+}
+
+label{
+    display: block;
+    margin-left: 0.4em;
+    margin-bottom: -1.5em;
+    color: #F4C1C1;
+
 }
 
 input{
     display: block;
-    margin-bottom: 1em;
-    margin-left: 6em;
-    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-left: 5em;
 }
-*/
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.6em ;
+}
+
