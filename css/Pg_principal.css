@@ -7,16 +7,18 @@ html {
     align-items: center;
 
 }
-body{
+
+body {
     margin-bottom: auto;
 }
 
 main {
     background-color: #F4C1C1;
-    width: 50em;
+    width: 40em;
     height: 85em;
     margin-top: auto;
     margin-bottom: auto;
+
 }
 
 img {
@@ -27,12 +29,14 @@ img {
     margin-top: -2%;
 }
 
-nav{
-    width: 50em;
+nav {
+
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     background-color: #863D3D;
+    border-right: solid 0.4em #F4C1C1;
+    border-left: solid 0.4em #F4C1C1;
 }
 
 nav ul {
@@ -45,49 +49,65 @@ nav ul li {
     display: inline-block;
 }
 
-nav ul li a{
+nav ul li a {
     text-align: center;
     font-size: 0.85em;
     text-decoration: none;
     font-weight: bold;
     color: #F4C1C1;
-    padding: 7em;
+    padding: 4.5em;
     padding-top: 0em;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     background-color: #F4C1C1;
     color: #863D3D;
     font-weight: bold;
-    padding: 0.9em;
-    padding-right: 5em;
-    padding-left: 5em;
-    margin-left: 2em;
-    margin-right: 2em;
+    padding: 0.8em;
+    padding-right: 4em;
+    padding-left: 4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
-.foto_lateral img{
+.foto_lateral img {
     float: right;
     display: flex;
     position: absolute;
-    margin-top: 2em;
-    width: 32em;
-    height: 35em;
-}
-.texto_lateral{
-float: right;
-width: 20em;
-vertical-align: top;
-margin-top: 2em;
-text-align: center;
+    margin-top: 2.5em;
+    width: 22em;
+    height: 24em;
+    border-left: solid 0.4em #F4C1C1;
 }
 
+.texto_bloco {
+    width: 18em;
+    height: 24em;
+    background-color: #863D3D;
+    float: right;
+    margin-top: 2.5em;
+    border-right: solid 0.4em #F4C1C1;
+    text-align: center;
+    color: #F4C1C1;
+}
+
+.texto_bloco ul {
+    margin-top: 5em;
+    margin-left: -3em;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    white-space: pre-line
+}
+
+/*
 .quadrado{
     float: right;
     display: flex;
-    
-    margin-top: 2em;
+    position: absolute;
+    margin-top: 2.5em;
     width: 20em;
     height: 20em;
     background-color: blue;
 }
+*/
