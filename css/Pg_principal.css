@@ -100,43 +100,46 @@ nav ul li a:hover {
     white-space: pre-line
 }
 
-h1 {
-    clear: right;
-    margin-bottom: 2em;
-    padding-top: 4em ;
-    text-align: center;
-    font-weight: 1000;
-    color: #863D3D;
-}
+
 
 
 form{
     display: block;
-    float: left;
+    clear: right;
     background-color: #863D3D;
-    padding-top: 1.4em;
+    border-top: solid 2.5em #F4C1C1;
     padding-right: 0.6em;
-    margin-left: 0.4em;
+    padding-bottom: 0.1em;
+    margin:0.4em ;
 
 }
 
-label{
-    display: block;
-    margin-left: 0.4em;
-    margin-bottom: -1.5em;
+form h1{
+
+    text-align: center;
     color: #F4C1C1;
 
 }
 
-input{
+form input#Nome, #email, #Mensagem{
+  
+    
     display: block;
-    margin-bottom: 3em;
-    margin-left: 5em;
+    margin-bottom: 2em;
+    margin-left: 0.6em;
+    width: 15em;
 }
 
-input[type="submit"] {
-    display: block;
+form textarea{
+ 
+    height: 10em;
+
+}
+
+form .botao_enviar{
+ 
     margin: 0 auto;
-    margin-bottom: 0.6em ;
+    margin-left: 7em;
+    margin-bottom: 1.5em;
 }
 

@@ -46,20 +46,30 @@
                 <div class="quadrado"></div>
             </section>
 
-    <h1>Contato</h1>
-    <form action="#destino.html" method="post" autocomplete="on">
-        <label for="Nome">Nome</label>
-        <input type="text" id="Nome" name="Nome" maxlength="120" autocomplete="on">
 
-        <label for="e-mail">E-mail</label>
-        <input type="email" id="email" name="e-mail" autocomplete="on">
+        <form action="#destino.html" method="post" autocomplete="on">
+            <h1>Contato</h1>
+            <input type="text" id="Nome" name="Nome" maxlength="120" autocomplete="on" required placeholder="O seu nome">
 
-        <label for="Mensagem">Mensagem</label>
-        <input type="text" id="Mensagem" name="Mensagem" maxlength="1000">
+            <input type="email" id="email" name="e-mail" autocomplete="on" required placeholder="Oseuemail@email.com">
 
-            <div class="botao_enviar">
-                <input type="submit" value="Enviar" id="Enviar" name="Enviar">
-            </div>
+            <textarea id="Mensagem" name="Mensagem" maxlength="1000" placeholder="Digite sua mensagem aqui"></textarea>
+
+                <div class="botao_enviar">
+                    <input type="submit" value="Enviar" id="Enviar" name="Enviar">
+                </div>
+                
+                <div class="texto_bloco2">
+                    <ul>
+                        <li>lorem ipsum lorem ipsum</li>
+                        <li>lorem ipsum lorem ipsum</li>
+                        <li>lorem ipsum lorem ipsum</li>
+                        <li>lorem ipsum lorem ipsum</li>
+                        <li>lorem ipsum lorem ipsum</li>
+                        <li>lorem ipsum lorem ipsum</li>
+                  
+                    </ul>
+                </div>
         </form>
     <!--
         <div id="map"></div>
@@ -76,7 +86,7 @@
             </script>
         </div>
 
-        Desativei por que é necessario pagamento, por isso retirei
+        Desativei por que é necessario pagamento
  -->
 </article>
 
