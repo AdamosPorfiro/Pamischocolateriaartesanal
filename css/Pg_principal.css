@@ -123,10 +123,7 @@ form h1{
 
 }
 
-form input#Nome, #email, #Mensagem{
-  
-
-    display: block;
+form input#nome, #email, #mensagem{
     margin-bottom: 2em;
     margin-left: 0.6em;
     width: 15em;
