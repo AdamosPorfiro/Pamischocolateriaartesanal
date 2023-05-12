@@ -15,7 +15,7 @@ body {
 main {
     background-color: #F4C1C1;
     width: 40em;
-    height: 80em;
+    height: 76em;
     margin-top: auto;
     margin-bottom: auto;
 
@@ -89,6 +89,7 @@ nav ul li a:hover {
     border-right: solid 0.4em #F4C1C1;
     text-align: center;
     color: #F4C1C1;
+    font-weight: 700;
 }
 
 .texto_bloco ul {
@@ -98,18 +99,19 @@ nav ul li a:hover {
     justify-content: center;
     list-style: none;
     white-space: pre-line
+    
 }
 
 
 
 
 form{
-    display: block;
-    clear: right;
+    clear: both;
     background-color: #863D3D;
     border-top: solid 2.5em #F4C1C1;
     padding-right: 0.6em;
-    padding-bottom: 0.1em;
+    padding-left: 20.6em;
+    padding-bottom: 6.8em;
     margin:0.4em ;
 
 }
@@ -123,7 +125,7 @@ form h1{
 
 form input#Nome, #email, #Mensagem{
   
-    
+
     display: block;
     margin-bottom: 2em;
     margin-left: 0.6em;
@@ -131,15 +133,43 @@ form input#Nome, #email, #Mensagem{
 }
 
 form textarea{
- 
+    
     height: 10em;
 
 }
 
 form .botao_enviar{
- 
+    
     margin: 0 auto;
     margin-left: 7em;
     margin-bottom: 1.5em;
 }
 
+.texto_bloco2{
+    color: #F4C1C1;
+    font-weight: 700;
+}
+ .texto_bloco2 ul{
+
+    margin: 0 auto;
+    margin-top: -23em;
+    margin-left: -20em;
+    list-style: none;
+    white-space: pre-line
+
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 3em;
+    color: #F4C1C1;
+    background-color: #863D3D;
+    width: 39.2em;
+    height: 3em;
+}
+
+footer p{
+    padding-top: 1em;
+}
