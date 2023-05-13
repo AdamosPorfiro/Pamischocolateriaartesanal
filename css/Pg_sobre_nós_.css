@@ -12,7 +12,7 @@ body{
 main{
     background-color: #F4C1C1;
     width: 40em;
-    height: 72em;
+    height: 66.1em;
 }
 
 img {
@@ -131,22 +131,11 @@ nav ul li a:hover {
 
 
 footer {
-    position: static;
-    bottom: 0;
+  
     text-align: center;
-    margin: auto;
-    margin-left: 0.4em;
-    margin-top: 3em;
     color: #F4C1C1;
     background-color: #863D3D;
-    width: 39.2em;
-    height: 3em;
 }
-
-footer p {
-    padding-top: 1em;
-}
-
 
 
 

@@ -13,7 +13,7 @@ body {
 main {
     background-color: #F4C1C1;
     width: 40em;
-    height: 70.7em;
+    height: 64.3em;
 
 }
 
@@ -112,7 +112,7 @@ form{
 }
 
 form h1{
-
+    margin-right: 4em;
     text-align: center;
     color: #F4C1C1;
 
@@ -152,18 +152,7 @@ form .botao_enviar{
 }
 
 footer{
-    
-    position: static;
-    bottom: 0;
-    text-align: center;
-    margin-left: 0.4em;
-    margin-top: 3em;
-    color: #F4C1C1;
-    background-color: #863D3D;
-    width: 39.2em;
-    height: 3em;
-}
 
-footer p{
-    padding-top: 1em;
+    text-align: center;
+    color: #F4C1C1;
 }
