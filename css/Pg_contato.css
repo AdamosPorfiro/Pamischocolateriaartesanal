@@ -1,0 +1,118 @@
+html{
+    background-color: #863D3D;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+
+body{
+    margin: 0 auto;
+}
+
+main{
+    background-color: #F4C1C1;
+    width: 40em;
+    height: 72em;
+}
+
+img {
+    width: 10em;
+    display: block;
+    margin: auto auto;
+    margin-top: -2%;
+}
+nav {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #863D3D;
+    border-right: solid 0.4em #F4C1C1;
+    border-left: solid 0.4em #F4C1C1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.5em;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-align: center;
+    font-size: 0.85em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #F4C1C1;
+    padding: 4.5em;
+    padding-top: 0em;
+}
+
+nav ul li a:hover {
+    background-color: #F4C1C1;
+    color: #863D3D;
+    font-weight: bold;
+    padding: 0.8em;
+    padding-right: 4em;
+    padding-left: 4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+form{
+    clear: both;
+    background-color: #863D3D;
+    border-top: solid 2.5em #F4C1C1;
+    padding-right: 0.6em;
+    padding-left: 20.6em;
+    padding-bottom: 6.8em;
+    margin:0.4em ;
+
+}
+
+form h1{
+
+    text-align: center;
+    color: #F4C1C1;
+
+}
+
+form input#nome, #email, #mensagem{
+    margin-bottom: 2em;
+    margin-left: 0.6em;
+    width: 15em;
+}
+
+form textarea{
+    
+    height: 10em;
+
+}
+
+form .botao_enviar{
+    
+    margin: 0 auto;
+    margin-left: 7em;
+    margin-bottom: 1.5em;
+}
+
+
+footer{
+    
+    position: static;
+    bottom: 0;
+    text-align: center;
+    margin-left: 0.4em;
+    margin-top: 3em;
+    color: #F4C1C1;
+    background-color: #863D3D;
+    width: 39.2em;
+    height: 3em;
+}
+
+footer p{
+    padding-top: 1em;
+}
