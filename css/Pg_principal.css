@@ -1,7 +1,6 @@
 html {
     background-color: #863D3D;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,17 +14,14 @@ body {
 main {
     background-color: #F4C1C1;
     width: 40em;
-    height: 76em;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: 70.7em;
 
 }
 
 img {
     width: 10em;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto auto;
     margin-top: -2%;
 }
 
@@ -75,13 +71,13 @@ nav ul li a:hover {
     display: flex;
     position: absolute;
     margin-top: 2.5em;
-    width: 22em;
+    width: 19.7em;
     height: 24em;
     border-left: solid 0.4em #F4C1C1;
 }
 
 .texto_bloco {
-    width: 18em;
+    width: 19.7em;
     height: 24em;
     background-color: #863D3D;
     float: right;
@@ -157,9 +153,9 @@ form .botao_enviar{
 }
 
 footer{
-    clear: both;
+    position: static;
     text-align: center;
-    margin:0 auto;
+    margin-left: 0.4em;
     margin-top: 3em;
     color: #F4C1C1;
     background-color: #863D3D;

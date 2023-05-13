@@ -2,8 +2,7 @@ html{
     background-color: #863D3D;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 body{
@@ -13,7 +12,7 @@ body{
 main{
     background-color: #F4C1C1;
     width: 40em;
-    height: 76em;
+    height: 70.7em;
 }
 
 img {
@@ -22,4 +21,128 @@ img {
     margin: auto auto;
     margin-top: -2%;
 }
+nav {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #863D3D;
+    border-right: solid 0.4em #F4C1C1;
+    border-left: solid 0.4em #F4C1C1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.5em;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-align: center;
+    font-size: 0.85em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #F4C1C1;
+    padding: 4.5em;
+    padding-top: 0em;
+}
+
+nav ul li a:hover {
+    background-color: #F4C1C1;
+    color: #863D3D;
+    font-weight: bold;
+    padding: 0.8em;
+    padding-right: 4em;
+    padding-left: 4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.foto_lateral img {
+    float: right;
+    display: flex;
+    position: absolute;
+    margin-top: 2.5em;
+    width: 19.7em;
+    height: 24em;
+    border-left: solid 0.4em #F4C1C1;
+}
+
+.texto_bloco {
+    width: 19.7em;
+    height: 24em;
+    background-color: #863D3D;
+    float: right;
+    margin-top: 2.5em;
+    border-right: solid 0.4em #F4C1C1;
+    text-align: center;
+    color: #F4C1C1;
+    font-weight: 700;
+}
+
+.texto_bloco ul {
+    margin-top: 5em;
+    margin-left: -3em;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    white-space: pre-line
+    
+}
+
+.foto_lateral_s img {
+    clear: both;
+    display: flex;
+    float: right;
+    padding-right: 0.4em;
+    margin: 0;
+    padding-top: 3em;
+    width: 19.5em;
+    height: 24em;
+    
+}
+
+.texto_bloco_s {
+    clear: both;
+    width: 19.7em;
+    height: 24em;
+    background-color: #863D3D;
+    float:left;
+    margin-top: -24em;
+    margin-left: 0.4em;
+    text-align: center;
+    color: #F4C1C1;
+    font-weight: 700;
+}
+
+.texto_bloco_s ul {
+    margin-top: 5em;
+    margin-left: -3em;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    white-space: pre-line
+    
+}
+
+footer{
+    position: static;
+    text-align: center;
+    margin-left: 0.4em;
+    margin-top: 3em;
+    color: #F4C1C1;
+    background-color: #863D3D;
+    width: 39.2em;
+    height: 3em;
+}
+
+footer p{
+    padding-top: 1em;
+}
+
+
 
