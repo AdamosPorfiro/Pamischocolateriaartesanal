@@ -12,7 +12,7 @@ body{
 main{
     background-color: #F4C1C1;
     width: 40em;
-    height: 70.7em;
+    height: 72em;
 }
 
 img {
@@ -97,9 +97,9 @@ nav ul li a:hover {
 .foto_lateral_s img {
     clear: both;
     display: flex;
-    float: right;
+    margin-left: auto;
+    margin-right: 0;
     padding-right: 0.4em;
-    margin: 0;
     padding-top: 3em;
     width: 19.5em;
     height: 24em;
@@ -129,9 +129,12 @@ nav ul li a:hover {
     
 }
 
-footer{
+
+footer {
     position: static;
+    bottom: 0;
     text-align: center;
+    margin: auto;
     margin-left: 0.4em;
     margin-top: 3em;
     color: #F4C1C1;
@@ -140,9 +143,10 @@ footer{
     height: 3em;
 }
 
-footer p{
+footer p {
     padding-top: 1em;
 }
+
 
 
 
